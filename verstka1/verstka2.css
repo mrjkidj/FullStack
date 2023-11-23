@@ -1,0 +1,145 @@
+* {
+    margin    : 0;
+    padding   : 0;
+    box-sizing: border-box;
+}
+
+/* navbar */
+
+.navbar {
+    background-color: black;
+    color           : white;
+
+}
+
+.container {
+    width : 1100px;
+    margin: 0 auto;
+
+}
+
+.navbar-title {
+    display    : flex;
+    align-items: center;
+}
+
+.navbar-box {
+    display        : flex;
+    justify-content: space-between;
+    text-align     : center;
+}
+
+ul {
+    display        : flex;
+    list-style     : none;
+    width          : 30%;
+    justify-content: space-between;
+    align-items    : center;
+}
+
+ul li {
+    transition: 3s;
+    padding   : 30px;
+}
+
+ul li a {
+    text-decoration: none;
+    color          : white;
+}
+
+/* header */
+
+#header{
+    width: 100%;
+    height: 100vh;
+}
+
+.header-content{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.content-items1{
+    width: 50%;
+}
+
+.box-text2, .box-text1{
+    margin-top: 50px;
+}
+
+.colorr{
+    color: orange;
+}
+
+.content-items2{
+    width: 350px;
+    height: 350px;
+    background-color: green;
+    border-radius: 50%;
+}
+
+/* section-1 */
+
+
+#section-1{
+    width: 100%;
+    height: 100vh;
+    background-color: green;
+    color: #fff;
+}
+
+.section-1_content{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.section-1-items{
+    width: 100%;
+    height: 150px;
+    background-color: orange;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 30px 0;
+}
+
+.box-items1{
+    width: 140px;
+    height: 140px;
+    background-color: #000;
+    border-radius: 50%;
+    margin-left: 10px;
+}
+
+.items-text{
+    width: 83%;
+}
+
+
+
+/* footer */
+
+#footer {
+    text-align      : center;
+    padding         : 20px 0;
+    background-color: black;
+    color           : white;
+
+}
+
+/* hover */
+
+ul li:hover {
+    background: linear-gradient(white 20%, black 70px);
+}
+
+.header-btn:hover {
+    background-color: orange;
+}

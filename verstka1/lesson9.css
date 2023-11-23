@@ -1,0 +1,96 @@
+/* .box{
+    width: 500px;
+    height: 500px;
+    border: 1px solid black;
+    margin: 100px;
+    position: relative;
+}
+.mini{
+    width: 100px;
+    height: 100px;
+    background: color #2e3e2e;
+    position: absolute;
+    /* animation: name duration timing-function delay iteration-count direction fill-mode; */
+/* animation-name: time;
+    animation-duration: 10s;
+    animation-duration: 10s;
+}
+@keyframes time{
+0%,100%{
+    top:o;
+    left: 0;
+}
+20%{
+    top: 0;
+    left: 400px;
+    background-color: aqua;
+    border-bottom-left-radius: 50%;
+}
+50%{
+    top: 0;
+    left: 400px;
+    background-color: crimson;
+    transform: rotate(90deg);
+    border-bottom-left-radius: 50%;
+}
+60%{
+    top: 400px;
+    left: 0px;
+    background-color: blue;
+    transform: rotate(180deg);
+    border-top-right-radius: 50%;
+}
+80%{
+    top: 400px;
+    left: 400px;
+    background-color: blueviolet;
+    border-top-left-radius: 50%;
+}
+} */
+.box1 {
+    width     : 100px;
+    height    : 100px;
+    background: color red;
+    position  : absolute;
+    animation : th 1s infinite;
+
+
+}
+
+@keyframes th {
+
+    0%,
+    100% {
+        background-color         : green;
+        border-top-right-radius: 100px;
+        border-bottom-right-radius: 100px;
+        border-bottom-left-radius: 100px;
+        border-top-left-radius:0px ;
+    }
+
+    25% {
+        
+        background-color          : blue;
+        border-top-right-radius: 0px;
+        border-bottom-right-radius: 100px;
+        border-bottom-left-radius: 100px;
+        border-top-left-radius: 100px;
+
+    }
+
+    50% {
+        background-color       : yellow;
+        border-top-right-radius: 100px;
+        border-bottom-right-radius: 0px;
+        border-bottom-left-radius: 100px;
+        border-top-left-radius: 100px;
+    }
+
+    75% {
+        background-color       : blueviolet;
+        border-top-right-radius: 100px;
+        border-bottom-right-radius: 100px;
+        border-bottom-left-radius: 0px;
+        border-top-left-radius: 100px;
+    }
+}
